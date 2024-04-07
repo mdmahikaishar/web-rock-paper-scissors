@@ -1,0 +1,9 @@
+{
+  "name": "web-rock-paper-scissor-game",
+  "version": "1.0.0",
+  "author": "mdmahikaishar <mahikaishar@gmail.com>",
+  "description": "An intransitive hand game.",
+  "main": "index.js",
+  "keywords": ["rock-paper-scissor", "game"],
+  "license": "ISC"
+}

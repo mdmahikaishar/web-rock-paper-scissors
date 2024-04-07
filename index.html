@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Web Rock Paper Scissors</title>
+    <link rel="shortcut icon" href="./img/rock.png" type="image/x-icon">
+    <meta name="author" content="mdmahikaishar mahikaishar@gmail.com">
+    <meta name="description" content="An intransitive hand game.">
+</head>
+<body>
+    <section id="sectGame">
+        <div id="gameScore">
+            <div id="scorePlayer">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+            <div id="scoreComputer">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+        <div class="gameStart" id="gameStart">
+            <h2>Rock Paper Scissors</h2>
+            <button>Let's Start</button>
+        </div>
+        <div class="fadeOut" id="gamePlay">
+            <h2 id="playWinner">Choose An Option</h2>
+            <div id="playImg">
+                <img class="imgPlayer" src="./img/rock.png">
+                <img class="imgComputer" src="./img/rock.png">
+            </div>
+            <div id="playOptions">
+                <button id="rock">rock</button>
+                <button id="paper">paper</button>
+                <button id="scissors">scissors</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
